@@ -12,6 +12,7 @@ generator client {
 // url      = "file:dev.sqlite"
 datasource db { 
   provider  = "postgresql"
+  url = "postgresql://postgres:XyFicx7rJ8sLhhoh@db.gxofpetszqsswnnwtgvf.supabase.co:5432/postgres"
   directUrl = "postgres://postgres.gxofpetszqsswnnwtgvf:XyFicx7rJ8sLhhoh@aws-0-eu-central-1.pooler.supabase.com:5432/postgres"
 }
 
